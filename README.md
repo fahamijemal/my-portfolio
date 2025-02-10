@@ -39,7 +39,12 @@ Open a pull request for review.
 This project is open-source and available under the MIT License.
 
 📞 Contact
-Email: fahamijemal1@gmail.com
-GitHub: @fahamijemal## License
+## Contact Information
+
+- **LinkedIn:** [fahamijemal](https://www.linkedin.com/in/fahamijemal)
+- **Telegram:** [@fahamijemal](https://t.me/fahamijemal)
+- **GitHub:** [fahamijemal](https://github.com/fahamijemal)
+- **Email:** [fahamijemal1@gmail.com](mailto:fahamijemal1@gmail.com)
+- **Phone:** [+251939521098](tel:+251939521098)
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
