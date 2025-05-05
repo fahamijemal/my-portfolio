@@ -405,3 +405,12 @@ footer {
   .about-text {
     padding: 0 10px; 
 }
+
+.cv-btn{
+  padding: 10px 20px; 
+  background: #4CAF50; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
