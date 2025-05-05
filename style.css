@@ -374,57 +374,34 @@ footer {
   margin-top: 1rem;
 }
 
-/* ===== MOBILE SPECIFIC STYLES ===== */
+/*  Mobile Responsiveness */
 @media (max-width: 768px) {
-  /* Navigation */
-  .topdiv {
-    flex-direction: column;
+  #about-me {
+    padding: 20px; 
+  }
+
+  .container {
+    flex-direction: column; 
     align-items: center;
   }
-  
-  /* About Me */
-  .container {
-    flex-direction: column;
+
+  .profile_image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  #about-me h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
     text-align: center;
   }
-  
-  /* Skills */
-  .skill {
-    width: 100px;
-    padding: 0.8rem;
-  }
-  
-  /* Projects */
-  .projects-container hr {
-    margin: 1rem auto;
-    width: 80%;
-  }
-  
-  /* Recommendations */
-  .recommendation {
-    width: 100%;
-  }
-  
-  /* Footer */
-  .social-icons {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-}
 
-/* Very small devices */
-@media (max-width: 280px) {
-  .profile_name {
-    font-size: 1.2rem;
+  #about-me p {
+    font-size: 1rem;
+    text-align: center;
   }
-  
-  .topmenu {
-    padding: 0.5rem;
-    font-size: 0.9rem;
-  }
-  
-  .skill {
-    width: 80px;
-    font-size: 0.8rem;
-  }
+
+  .about-text {
+    padding: 0 10px; 
 }
