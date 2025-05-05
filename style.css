@@ -38,7 +38,6 @@ body {
 .profile_name {
   float: left;
   padding-left: 2cm;
-  /* Add the styles here */
   color:#fff;
 }
 
@@ -92,6 +91,7 @@ h2 {
 .about-me {
   display: flex;
   align-items: center;
+  padding: 40px 60px;
 }
 
 #about-me h1 {
@@ -105,12 +105,18 @@ h2 {
   color: rgb(128, 128, 128);
   margin-top: -1cm;
 }
-
+.about-text {
+  flex: 1;               
+}
 .profile_image {
-  width: 550px;
-  height: fit-content;
+  margin-bottom: 90px;
+  width: 350px;
+  height: 350px;
   vertical-align: middle;
+  border-radius: 40%;
   margin: 5px;
+  border: 5px solid #7600bc; 
+
 }
 
 /* Skills */
@@ -325,3 +331,46 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
+/* Footer Styles */
+footer {
+  background-color:  #7600bc;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.social-icons {
+  margin-bottom: 1.5rem;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #4CAF50; /* Green accent color - change to match your theme */
+}
+
+
+
+
+.copyright {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #aaa;
+}
+
+.iconbutton {
+  margin-top: 1rem;
+}
+

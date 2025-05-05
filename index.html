@@ -38,17 +38,18 @@
     <main>
       <!-- About Me -->
       <section id="about-me" class="container">
-        <div>
-          
-        </div>
-        <div>
-          <img src="./images/profile.jpg" class="profile_image"/>
-          <h1>
-            Hi, I'm Fahami Jemal! <img src="images/waving-hand.png" width="60px"/>
-          </h1>
-          <p>
-            I'm a passionate junior full-stack developer with experience in Django, React, JavaScript, and cloud-based solutions. I have a solid foundation in both backend and frontend development, with a focus on building scalable applications. My journey includes developing secure web applications, microservices, and cloud integrations. Currently, I am expanding my knowledge in DevOps, cloud computing, frontend and backend engineering to deliver seamless digital experiences.
-          </p>
+        <div style="display: flex;">
+          <div>
+            <img src="./images/profile.jpg" class="profile_image"/>
+          </div>
+          <div class="about-text">
+            <h1>
+              Hi, I'm Fahami Jemal! <img src="images/waving-hand.png" width="60px"/>
+            </h1>
+            <p>
+              I'm a passionate junior full-stack developer with experience in Django, React, JavaScript, and cloud-based solutions. I have a solid foundation in both backend and frontend development, with a focus on building scalable applications. My journey includes developing secure web applications, microservices, and cloud integrations. Currently, I am expanding my knowledge in DevOps, cloud computing, frontend and backend engineering to deliver seamless digital experiences.
+            </p>
+          </div>
         </div>
       </section>
                 
@@ -176,19 +177,45 @@
     </main>
 
     <footer>
-      <div class="iconbutton">
-        <a href="#home">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-        </a>
+      <div class="footer-content">
+        <!-- Social Media Links -->
+        <div class="social-icons">
+          <a href="https://github.com/fahamijemal" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github">GitHub</i>
+          </a>
+          <a href="https://linkedin.com/in/fahamijemal" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in">LinkedIn</i>
+          </a>
+          <a href="https://t.me/fahamijemal" aria-label="Telegram">
+            <i class="fas fa-envelope">Telegram</i>
+          </a>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="copyright">
+          <p>&copy; <span id="current-year"></span> Fahami Jemal. All rights reserved.</p>
+        </div>
+        
+        <!-- Back to Top Button -->
+        <div class="iconbutton">
+          <a href="#home" aria-label="Back to top">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </a>
+        </div>
       </div>
-
+      
+      <!-- Popup -->
       <div class="popup" id="popup" class="flex_center">
         <img src="images/checkmark--outline.svg"/>
         <h3>Thank you for Your Recommendation!</h3>
-        <button onclick="showPopup(false)">Thank you!</button>
+        <button onclick="showPopup(false)">Ok</button>
       </div>
+      
+      <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+      </script>
     </footer>
   </body>
 </html>
