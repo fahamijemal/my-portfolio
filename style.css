@@ -351,7 +351,7 @@ footer {
 }
 
 .social-icons a {
-  color: white;
+  color: #aaa;
   font-size: 1.5rem;
   margin: 0 10px;
   transition: color 0.3s ease;
@@ -398,7 +398,7 @@ footer {
   }
 
   #about-me p {
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
   }
 
